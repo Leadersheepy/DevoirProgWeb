@@ -1,0 +1,100 @@
+.deuxiemeFond{
+    background-image: url("image/orion.jpg");
+}
+body{
+    background-color: #f6f5f5;
+    margin:0px;
+    padding:0px;
+}
+.logo{
+    cursor:pointer;
+    border-radius: 40px;
+    width:80px;
+
+}
+
+
+a{
+    text-decoration:none;
+}
+section{
+    width: 100%;
+    height: 95vh;
+    background-image: url("../image/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+  
+.space{
+    left:0;
+    background: url('image/orion.jpg') center center no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+  }
+
+
+.imageQSJ{
+    width: 50%;
+    border-radius: 20px;
+    margin-left: 60px;
+}
+
+.responsive {
+    height: auto;
+  }
+
+li{
+    margin-bottom: 10px;
+  }
+
+
+  .social-icons .social-icon {
+    margin-left: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .social-icons .social-icon:last-child {
+    margin-right: 0;
+  }
+  .social-icons .social-icon:hover {
+    background-color: #bd5d38;
+  }
+
+  .tailleIco{
+      width: 50px;
+  }
+
+  .section-heading {
+    text-transform: uppercase;
+  }
+  .section-heading .section-heading-upper {
+    display: block;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .section-heading .section-heading-lower {
+    display: block;
+    font-size: 3rem;
+    font-weight: 100;
+  }
+
+  .bg-faded {
+    background-color: #f6c5f2;
+    opacity: 0.8;
+  }
